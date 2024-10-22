@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the directory where the script is located
-SCRIPT_DIR="$(realpath "$(dirname "$0")")/../app"
+SCRIPT_DIR="$(realpath "$(dirname "$0")")"
 
 pip install -r "$SCRIPT_DIR/requirements.txt"
 
