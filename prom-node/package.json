@@ -1,0 +1,16 @@
+{
+  "name": "prom-node",
+  "version": "1.0.0",
+  "description": "An Express based NodeJS client for counting requests duration and quantity with one label with a Prometheus client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Red Hat Customer Success",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "prom-client": "^15.1.3"
+  }
+}
